@@ -1,0 +1,158 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--page-bg);
+  color: var(--text-color);
+  font-family: var(--font-main);
+}
+
+/*
+----------
+.container {
+  width: min(40ch, 100% - 2rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+----------
+avatar ->
+.avatar {
+	width: min(64px, 15%, 10vw);
+}
+----------
+img -> 
+img {
+  width: clamp (300px, 50%, 800px);
+} 
+.background-image {
+  background: #1F1B1C url('...') no-repeat center;
+  background-size: min(600px, 100%);
+}
+----------
+Использование max() в качестве запасного варианта для aspect-ratio
+img {
+  height: max(18vh, 12rem);
+  object-fit: cover;
+  width: 100%;
+}
+@supports (aspect-ratio: 1) {
+  img {
+    aspect-ratio: var(--img-ratio);
+    height: auto;
+  }
+}
+----------
+1280px + масштаб 400%
+.element + .element {
+  margin-top: max(8vh, 2rem);
+}
+----------
+принудительное масштабирование браузера ->
+input {
+  font-size: max(16px, 1rem);
+}
+----------
+Контуры относительного фокуса
+a {
+  --outline-size: max(2px, 0.08em);
+  --outline-style: solid;
+  --outline-color: currentColor;
+}
+ 
+a:focus {
+  outline: var(--outline-size) var(--outline-style) var(--outline-color);
+  outline-offset: var(--outline-size);
+}
+----------
+Целевые размеры с max()
+.icon-button {
+  width: max(44px, 2em);
+  height: max(44px, 2em);
+}
+----------
+.title {
+  font-size: clamp(16px, 5vw, 50px);
+}
+----------
+h1 {
+  font-size: clamp(1.75rem, 4vw + 1rem, 3rem);
+}
+----------
+padding -> 
+.element {
+  padding: 1.5rem clamp(1rem, 5%, 3rem);
+}
+----------
+grid -> 
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: clamp(1rem, 2vw, 24px);
+}
+----------
+.section {
+  padding: clamp(2rem, 10vmax, 10rem) 1rem;
+}
+----------
+для текста ->
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.25rem;
+  font-family: system-ui, sans-serif;
+}
+
+main {
+  width: min(60ch, 100vw - 2rem);
+  margin-top: max(8vh, 2rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+h2 {
+  border: min(6px, 0.15em) solid purple;
+  font-size: clamp(1.5rem, 6vw + 1rem, 3rem);
+  padding: max(5%, 1rem);
+}
+
+p {
+  line-height: 1.5;
+}
+
+a {
+  color: blue;
+}
+----------
+HSL ->
+.colors {
+  --base-hue: 140;
+  --saturation: 95%;
+  --lightness: 80%;
+  --rotation: 60;
+ 
+  color: #222;
+  text-align: center;
+}
+ 
+.color {
+  padding: 0.25rem;
+  background-color: hsl(var(--hue), var(--saturation), var(--lightness));
+}
+ 
+.color1 {
+  --hue: calc(var(--base-hue));
+}
+ 
+.color2 {
+  --hue: calc(var(--base-hue) + var(--rotation));
+}
+ 
+.color3 {
+  --hue: calc(var(--base-hue) + var(--rotation) * 2);
+}
+
+
+*/
